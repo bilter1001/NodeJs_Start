@@ -1,7 +1,5 @@
 var http = require("http");
 
-var http = require('http');
-
 http.createServer(function (request, response) {
 
     // 发送 HTTP 头部 
