@@ -9,5 +9,5 @@ var workerProcess = child_process.exec(`echo 'hello world!'`, function (error, s
      console.log('stderr: ' + stderr);
 });
 workerProcess.on('exit', function (code) {
-    console.log('子进程已退出，退出码 ' + code);
+    console.log('子进程已退出，退出码 ' + code);   
 });
